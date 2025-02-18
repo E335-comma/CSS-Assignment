@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="form.css" type="text/css">
+</head>
+<body>
+    
+    <div class="form-container">
+        <img  src="form.png" alt="Form Logo"> 
+        <h1>For Individuals</h1>
+        <p class="introduction">Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.</p>
+    <form class="registration-form">
+        <p class="form-group">
+            <label for="first-name">First Name</label>
+            <input id="first-name" type="text" name="first-name" required>
+        </p>
+        <p class="form-group">
+            <label for="last-name">Last Name</label>
+            <input name="last-name" type="text" id="last-name" required>
+        </p>
+        <p class="form-group">
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="select-here" selected>Select here</option>
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="others">Others</option>
+            </select>
+        </p>
+        <p class="form-group">
+            <label for="date-of-birth">Date of Birth</label>
+            <input type="date" name="date-of-birth" id="date-of-birth" required>
+        </p>
+        <p class="form-group">
+            <label for="weight">Weight (KG)</label>
+            <input id="weight" name="weight" type="number" placeholder="Enter weight" required>
+        </p>
+        <p class="form-group">
+            <label for="height">Height (CM)</label>
+            <input id="height" name="height" type="number" placeholder="Enter height here" required>
+        </p>
+        <p class="form-group">
+            <label for="activity-level">Activity Level</label>
+            <select name="activity-level" id="activity-level">
+                <option value="select-here">Select here</option>
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+        </p>
+        <p class="form-group">
+            <label for="password">Password</label>
+            <input name="password" id="password" type="password" required>
+        </p>
+        <p class="register">
+            <button type="submit">Register</button>
+        </p>
+        <p class="terms">
+            By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a> 
+        </p>
+    </form>
+    </div>
+</body>
+</html>
